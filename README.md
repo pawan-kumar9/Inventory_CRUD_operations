@@ -35,9 +35,16 @@ This command will run your JSON server in default port i.e; 3000, But if any oth
 ***
 ## Output :
 ### Login Page 
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/70126570/209477551-71171afb-1040-4538-85f3-bf99cc6c88f3.png">
 
 ### When Admin logs in :
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/70126570/209477610-9a98d1a8-c068-4d9a-9324-0d81ed5f28b0.png">
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/70126570/209477626-6115e252-70e5-4c4a-ab28-7e02bf2aea2e.png">
 
 ### When user logs in :
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/70126570/209477697-2b85429f-ec89-40a0-aac8-994737d2475a.png">
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/70126570/209477716-d2049a8e-5cff-4aba-ba4f-6bbfe71e9f3c.png">
 
 
