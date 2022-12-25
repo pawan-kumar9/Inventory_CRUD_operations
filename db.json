@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "prodName": "iphone12",
+      "price": "50000",
+      "Brand": "Apple"
+    },
+    {
+      "id": 2,
+      "prodName": "iphone13",
+      "price": 65000,
+      "Brand": "Apple"
+    },
+    {
+      "id": 3,
+      "prodName": "iphone14",
+      "price": 85000,
+      "Brand": "Apple"
+    },
+    {
+      "prodName": "S22 Ultra",
+      "price": "98000",
+      "Brand": "Samsung",
+      "id": 4
+    },
+    {
+      "prodName": "NothingOne",
+      "price": "30000",
+      "Brand": "Nothing",
+      "id": 5
+    },
+    {
+      "prodName": "dmv ",
+      "price": "mnvmq",
+      "Brand": "m,nfm,wew",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "prodName": "iphone13",
+      "price": 65000,
+      "Brand": "Apple"
+    },
+    {
+      "id": 1,
+      "prodName": "iphone12",
+      "price": "50000",
+      "Brand": "Apple"
+    },
+    {
+      "id": 3,
+      "prodName": "iphone14",
+      "price": 85000,
+      "Brand": "Apple"
+    }
+  ]
+}
