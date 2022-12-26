@@ -31,10 +31,40 @@
       "id": 5
     },
     {
-      "prodName": "dmv ",
-      "price": "mnvmq",
-      "Brand": "m,nfm,wew",
+      "prodName": "Cable",
+      "price": "200",
+      "Brand": "Portronics",
       "id": 6
+    },
+    {
+      "prodName": "Adapter",
+      "price": "1000",
+      "Brand": "Xiaomi",
+      "id": 7
+    },
+    {
+      "prodName": "OnePlus Nord",
+      "price": "30000",
+      "Brand": "OnePlus",
+      "id": 8
+    },
+    {
+      "prodName": "c1",
+      "price": "1000",
+      "Brand": "idjkw",
+      "id": 9
+    },
+    {
+      "prodName": "cnbq",
+      "price": "18687",
+      "Brand": "bdnbqs",
+      "id": 10
+    },
+    {
+      "prodName": "xnbqvc",
+      "price": "jdbjq",
+      "Brand": "bcqkj",
+      "id": 11
     }
   ],
   "cart": [

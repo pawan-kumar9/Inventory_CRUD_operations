@@ -3,12 +3,20 @@ import axios from 'axios'
 
 const Cart = () => {
   const [products,setProducts] = useState([]);
+  const [bill, setBill] = useState(0);
+  const [item, setItem] = useState(0);
 
   useEffect(()=>{
     async function getAllCart(){
       try{
         const products = await axios.get("http://localhost:3004/cart")
         setProducts(products.data)
+        setItem(products.data.length)
+        let amt =0
+        products.data.map((product) =>{
+          amt += parseInt(product.price)
+        })
+        setBill(amt)
       } catch (error) {
         console.log("Something is wrong");
       }
@@ -22,6 +30,13 @@ const Cart = () => {
       return item.id !== id;
     })
     setProducts(newproduct);
+    console.log(newproduct.length)
+    setItem(newproduct.length)
+    let amt = 0
+    newproduct.map((product) => {
+      amt += parseInt(product.price)
+    })
+    setBill(amt)
   }
 
   return (
@@ -61,6 +76,10 @@ const Cart = () => {
             }
           </tbody>
         </table>
+        <div>
+          <p className='text-end'>Total products = {item}</p>
+          <p className='text-end'>Total Amount = {bill}</p>
+        </div>
       </div>
     </div>
   )

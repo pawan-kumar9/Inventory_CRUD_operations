@@ -5,6 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useParams } from 'react-router-dom';
 
 
+
 export const ViewProduct = () => {
 
   const isAdmin = localStorage.getItem("isAdmin");
@@ -50,12 +51,12 @@ export const ViewProduct = () => {
   }
 
   return (
-    <div className='mt-5'>
-      <div className='col-md-6 offset-md-3 table-responsive-sm'>
+    <div className='mt-5' style={{overflow: "scroll"}}>
+      <div className='col-md-6 offset-md-3'>
         <h1 className='text-center mb-3 bg-primary text-white'>
           List of All Products
         </h1>
-        <table class="table table-bordered">
+        <table class="table table-bordered" responsive>
           <thead>
             <tr>
               <th class="text-center" scope="col">Product ID</th>
@@ -87,9 +88,11 @@ export const ViewProduct = () => {
                           </button>
                         </>
                       }
-                      <button type="button" class="btn btn-success" onClick={() => handleAddition(product.id)}>
-                        <i class="bi bi-cart"></i>
-                      </button>
+                      {
+                        isAdmin == "false" && <button type="button" class="btn btn-success" onClick={() => handleAddition(product.id)}>
+                          <i class="bi bi-cart"></i>
+                        </button>
+                      }
                     </td>
                   </tr>
                 )
